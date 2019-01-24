@@ -12,13 +12,13 @@ Use these modifiers with `.bx--modal` class.
 
 #### Getting component class reference
 
-##### ES2015
+ES2015
 
 ```javascript
 import { Modal } from 'carbon-components';
 ```
 
-##### With pre-build bundle (`carbon-components.min.js`)
+With pre-build bundle (`carbon-components.min.js`)
 
 ```javascript
 var Modal = CarbonComponents.Modal;
@@ -26,13 +26,13 @@ var Modal = CarbonComponents.Modal;
 
 #### Instantiating
 
-##### For one with a trigger button (a `<button>` with `data-modal-target` attribute)
+For one with a trigger button (a `<button>` with `data-modal-target` attribute)
 
 ```javascript
 Modal.init();
 ```
 
-##### For one without a trigger button
+For one without a trigger button
 
 ```javascript
 // `#my-modal` is an element with `[data-modal]` attribute
